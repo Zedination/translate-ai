@@ -7,11 +7,13 @@ ExcelTranslate AI là một excel add-ins giúp bạn dịch một đoạn văn 
 
 ## Mục lục
 
-- [Tính năng](#tính-năng)
-- [Cài đặt](#cài-đặt)
-- [Cách sử dụng](#cách-sử-dụng)
-- [Một số lưu ý](#một-số-lưu-ý)
-- [License](#license)
+- [Hướng dẫn cài đặt và sử dụng Excel Add-ins ExcelTranslate AI](#hướng-dẫn-cài-đặt-và-sử-dụng-excel-add-ins-exceltranslate-ai)
+  - [Mục lục](#mục-lục)
+  - [Tính năng](#tính-năng)
+  - [Cài đặt](#cài-đặt)
+  - [Cách sử dụng](#cách-sử-dụng)
+  - [Một số lưu ý](#một-số-lưu-ý)
+  - [License](#license)
 
 ## Tính năng
 - Google Translate
@@ -38,7 +40,11 @@ ExcelTranslate AI là một excel add-ins giúp bạn dịch một đoạn văn 
 - Trước khi có thể sử dụng ChatGPT dịch và Bing AI dịch thì phải config trước, để mở cửa sổ config hãy bấm tổ hợp phím <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Y</kbd>
     ![image](https://user-images.githubusercontent.com/50323429/231244677-31caad69-52fa-4209-a9d6-22cd1a7b9a12.png)
   - ChatGPT Access Token: input này dùng để nhập access_token cùa tài khoản ChatGPT của bạn, để lấy giá trị này hãy login tài khoản ChatGPT của bạn, sau đó truy cập [https://chat.openai.com/api/auth/session](https://chat.openai.com/api/auth/session), copy giá trị `accessToken` như hình dưới đây. Sau khi copy xong hãy nhập vào input **ChatGPT Access Token** rồi bấm <kbd>Save Config</kbd> tại cửa sổ config đang mở
-    ![image](https://user-images.githubusercontent.com/50323429/231246218-49541a26-405e-4939-b4f1-ccbfb90e2081.png)
+    - <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/50323429/231246218-49541a26-405e-4939-b4f1-ccbfb90e2081.png">
+      <img alt="NebulaGraph Data Intelligence Suite(ngdi)" src="https://user-images.githubusercontent.com/50323429/231246218-49541a26-405e-4939-b4f1-ccbfb90e2081.png">
+    </picture>
+    <!-- ![image](https://user-images.githubusercontent.com/50323429/231246218-49541a26-405e-4939-b4f1-ccbfb90e2081.png) -->
   - OpenAI API: truy cập [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys) để tạo API key cho riêng mình và nhập chúng vào đây
   - Bing Cookie _U: Truy cập Bing, sau đó đăng nhập tài khoản Microsoft của bạn rồi làm như trong ảnh sau để lấy cookie. Sau khi lấy cookies hãy nhập vào input Bing Cookie rồi bấm <kbd>Save Config</kbd> tại cửa sổ config đang mở để lưu cài đặt
     ![image](https://user-images.githubusercontent.com/50323429/231247618-d69e48aa-8484-48a5-bce8-803d457ab114.png)
@@ -46,6 +52,9 @@ ExcelTranslate AI là một excel add-ins giúp bạn dịch một đoạn văn 
   - Activated service: Lựa chọn trình dịch được sử dụng, mặc định sẽ là **Bing AI Translate**
   - Sau khi nhập xong các giá trị trên nhớ bấm <kbd>Save Config</kbd> tại cửa sổ config đang mở để lưu cài đặt nhé 😊
 - Để sử dụng trình dịch AI, hãy chọn (các) cell cần dịch và bấm tổ hợp phím <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>. Tùy thuộc vào **Activated service** bạn đã config, trình dịch tương ứng sẽ được sử dụng. _Lưu ý: khi sử dụng trình dịch AI có thể phải chờ tương đối lâu để có kết quả dịch, hãy kiên nhẫn một chút nhé 😉_. Ví dụ trong ảnh dưới đây là kết quả khi sử dụng Bing AI Translate
+
+
+
   ![image](https://user-images.githubusercontent.com/50323429/231250513-d9b27d75-cd5a-4fda-90a3-ec5a45b97201.png)
   
 ## Một số lưu ý
