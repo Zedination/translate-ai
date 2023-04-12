@@ -6,7 +6,6 @@ ExcelTranslate AI là một excel add-ins giúp bạn dịch một đoạn văn 
 - Discord cá nhân: https://discordapp.com/users/958007722471719003
 
 ## Mục lục
-
 - [Hướng dẫn cài đặt và sử dụng Excel Add-ins ExcelTranslate AI](#hướng-dẫn-cài-đặt-và-sử-dụng-excel-add-ins-exceltranslate-ai)
   - [Mục lục](#mục-lục)
   - [Tính năng](#tính-năng)
@@ -24,30 +23,30 @@ ExcelTranslate AI là một excel add-ins giúp bạn dịch một đoạn văn 
 ## Cài đặt
 
 1. Kiểm tra xem Ribbon Excel đã có tab **Developer** chưa hay chưa, nếu chưa được bật, hãy bật nó trong setting bằng cách truy cập **File** / **Options** / **Customize Ribbon** và tích vào checkbox **Developer**
-   ![Screenshot 2023-04-12 001358](https://user-images.githubusercontent.com/50323429/231239582-fa34a45b-3fea-4f9e-a237-c45811455235.jpg)
+   ![Screenshot 2023-04-12 001358](https://zedination.dev/translate-ai/statics/231239582-fa34a45b-3fea-4f9e-a237-c45811455235.jpg)
 2. Download ExcelTraslate AI [tại đây](https://zedination.dev/translate-ai/ExcelTranslate.xlam) và lưu vào một thư mục nhất định
-3. Chọn vào tab **Developer**, sau đó chọn vào biểu tượng **Excel Add-ins** ![image](https://user-images.githubusercontent.com/50323429/231239955-d53bbc28-afd2-40b0-a234-0f31f92f7588.png), cửa sổ quản lý Add-ins của Excel hiện ra. Chọn button **Browse...** rồi chọn file **ExcelTranslate.xlam** mà bạn vừa download.
+3. Chọn vào tab **Developer**, sau đó chọn vào biểu tượng **Excel Add-ins** ![image](https://zedination.dev/translate-ai/statics/231239955-d53bbc28-afd2-40b0-a234-0f31f92f7588.png), cửa sổ quản lý Add-ins của Excel hiện ra. Chọn button **Browse...** rồi chọn file **ExcelTranslate.xlam** mà bạn vừa download.
 
-   ![image](https://user-images.githubusercontent.com/50323429/231241157-2360e51e-22d9-49cb-9d44-938b2259a82b.png)
+   ![image](https://zedination.dev/translate-ai/statics/231241157-2360e51e-22d9-49cb-9d44-938b2259a82b.png)
 4. Sau khi đã chọn file **ExcelTranslate.xlam**, cửa sổ quản lý add-ins sẽ xuất hiện mục **Exceltranslate**, hãy tích vào checkbox để kích hoạt Add-ins
 5. Khởi động lại Excel và bắt đầu sử dụng thôi 😊
 
 ## Cách sử dụng
 - Để sử dụng Google Translate, chọn vào cell cần dịch rồi bấm tổ hợp phím <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> hoặc <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd>
   
-  ![Animation](https://user-images.githubusercontent.com/50323429/231244062-16037a3f-c627-40ba-bb1f-f6b329dde797.gif)
+  ![Animation](https://zedination.dev/translate-ai/statics/231244062-16037a3f-c627-40ba-bb1f-f6b329dde797.gif)
 
 - Trước khi có thể sử dụng ChatGPT dịch và Bing AI dịch thì phải config trước, để mở cửa sổ config hãy bấm tổ hợp phím <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Y</kbd>
-    ![image](https://user-images.githubusercontent.com/50323429/231244677-31caad69-52fa-4209-a9d6-22cd1a7b9a12.png)
+    ![image](https://zedination.dev/translate-ai/statics/231244677-31caad69-52fa-4209-a9d6-22cd1a7b9a12.png)
   - ChatGPT Access Token: input này dùng để nhập access_token cùa tài khoản ChatGPT của bạn, để lấy giá trị này hãy login tài khoản ChatGPT của bạn, sau đó truy cập [https://chat.openai.com/api/auth/session](https://chat.openai.com/api/auth/session), copy giá trị `accessToken` như hình dưới đây. Sau khi copy xong hãy nhập vào input **ChatGPT Access Token** rồi bấm <kbd>Save Config</kbd> tại cửa sổ config đang mở
     - <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/50323429/231246218-49541a26-405e-4939-b4f1-ccbfb90e2081.png">
-      <img alt="NebulaGraph Data Intelligence Suite(ngdi)" src="https://user-images.githubusercontent.com/50323429/231246218-49541a26-405e-4939-b4f1-ccbfb90e2081.png">
+      <source media="(prefers-color-scheme: dark)" srcset="https://zedination.dev/translate-ai/statics/231246218-49541a26-405e-4939-b4f1-ccbfb90e2081.png">
+      <img alt="" src="https://zedination.dev/translate-ai/statics/231246218-49541a26-405e-4939-b4f1-ccbfb90e2081.png">
     </picture>
-    <!-- ![image](https://user-images.githubusercontent.com/50323429/231246218-49541a26-405e-4939-b4f1-ccbfb90e2081.png) -->
+    <!-- ![image](https://zedination.dev/translate-ai/statics/231246218-49541a26-405e-4939-b4f1-ccbfb90e2081.png) -->
   - OpenAI API: truy cập [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys) để tạo API key cho riêng mình và nhập chúng vào đây
   - Bing Cookie _U: Truy cập Bing, sau đó đăng nhập tài khoản Microsoft của bạn rồi làm như trong ảnh sau để lấy cookie. Sau khi lấy cookies hãy nhập vào input Bing Cookie rồi bấm <kbd>Save Config</kbd> tại cửa sổ config đang mở để lưu cài đặt
-    ![image](https://user-images.githubusercontent.com/50323429/231247618-d69e48aa-8484-48a5-bce8-803d457ab114.png)
+    ![image](https://zedination.dev/translate-ai/statics/231247618-d69e48aa-8484-48a5-bce8-803d457ab114.png)
   - Languages: Lựa chọn ngôn ngữ dịch đầu ra
   - Activated service: Lựa chọn trình dịch được sử dụng, mặc định sẽ là **Bing AI Translate**
   - Sau khi nhập xong các giá trị trên nhớ bấm <kbd>Save Config</kbd> tại cửa sổ config đang mở để lưu cài đặt nhé 😊
@@ -55,7 +54,7 @@ ExcelTranslate AI là một excel add-ins giúp bạn dịch một đoạn văn 
 
 
 
-  ![image](https://user-images.githubusercontent.com/50323429/231250513-d9b27d75-cd5a-4fda-90a3-ec5a45b97201.png)
+  ![image](https://zedination.dev/translate-ai/statics/231250513-d9b27d75-cd5a-4fda-90a3-ec5a45b97201.png)
   
 ## Một số lưu ý
 - Đối với trình dịch là ChatGPT translate unoffical và Bing AI Translate, có thể hoạt động thiếu ổn định. Trong tương lai các dịch vụ này có thể không còn hỗ trợ nữa 😢
